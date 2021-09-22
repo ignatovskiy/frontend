@@ -1,0 +1,17 @@
+body {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+p{
+    text-indent: 40px;  
+}
+
+ul{
+  list-style: none;
+}
+
+ul li::before{
+  color: red; 
+  content: "• ";
+}
